@@ -14,8 +14,8 @@
   
   /* Header and Navigation */
   header {
-    background: #333;
-    color: #fff;
+    background: #ffffff;
+    color: #000000;
     padding: 1rem;
     position: fixed;
     width: 100%;
@@ -43,7 +43,7 @@
   }
   
   .nav-links a {
-    color: #fff;
+    color: #000000;
     text-decoration: none;
     font-weight: bold;
   }
@@ -59,7 +59,7 @@
   
   .slides {
     display: flex;
-    width: 300%;
+    width: 100%;
     animation: slide 12s infinite;
   }
   
@@ -92,16 +92,20 @@
   }
   
   .about,
-  .projects,
-  .contact {
+  .Mygirlfriend,
+  .contact,
+  .Mydream {
     background: #f4f4f4;
     margin: 2rem 0;
+    text-align: start;
+    font-size: medium;
+  .
   }
   
   /* Footer */
   footer {
-    background: #333;
-    color: #fff;
+    background: #000000;
+    color: #ffffff;
     text-align: center;
     padding: 1rem 0;
   }
